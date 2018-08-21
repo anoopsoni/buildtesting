@@ -1,0 +1,14 @@
+<assembly>
+	<formats>
+    		<format>tar.gz</format>
+  	</formats>
+	<fileSets>
+		<fileSet>
+      			<directory>/home/student/bit_bucket_build/scripts</directory>
+      			<outputDirectory>Build</outputDirectory>
+      			<includes>
+        			<include>*</include>
+      			</includes>
+    		</fileSet>
+	</fileSets>	
+</assembly>
